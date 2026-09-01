@@ -11,12 +11,12 @@ if ret:
     elif operation=="Substraction":
         st.write(number1-number2)
     elif operation=="Multiplication":
-            st.write(number1*number2)
-    elif operation=="division":
-            if number2!=0:
-                st.write(number1%number2)
-            else:
-                 st.wrie("division is not possible")
+        st.write(number1*number2)
+    elif operation=="Division":
+        if number2!=0:
+            st.write(number1/number2)
+        else:
+            st.write("division is not possible")
                  
     
     
