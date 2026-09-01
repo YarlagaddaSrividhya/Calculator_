@@ -13,6 +13,10 @@ if ret:
     elif operation=="Multiplication":
             st.write(number1*number2)
     elif operation=="division":
-            st.write(number1%number2)
+            if number2!=0:
+                st.write(number1%number2)
+            else:
+                 st.wrie("division is not possible")
+                 
     
     
